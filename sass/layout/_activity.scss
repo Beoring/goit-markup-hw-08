@@ -1,0 +1,30 @@
+.activity {
+  padding-top: 0;
+}
+.activity-list {
+  display: flex;
+
+  &__item:not(:last-child) {
+    margin-right: var(--main-gap);
+  }
+
+  &__img-container {
+    position: relative;
+  }
+
+  &__text {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 70px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-light-color);
+    background: var(--bg-activity-text-thumb-color);
+  }
+}

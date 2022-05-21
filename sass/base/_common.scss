@@ -1,0 +1,27 @@
+body {
+  font-weight: 400;
+  background-color: var(--bg-main-color);
+  color: var(--text-main-color);
+  font-family: var(--main-font-family);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.list {
+  list-style: none;
+}
+.link {
+  color: var(--text-main-color);
+  text-decoration: none;
+}
+.btn {
+  font-family: inherit;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+}
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
