@@ -1,6 +1,12 @@
 .activity {
   padding-top: 0;
 }
+
+@media screen and (max-width: 1199px) {
+  .activity {
+    display: none;
+  }
+}
 .activity-list {
   display: flex;
 

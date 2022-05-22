@@ -1,27 +1,71 @@
 .hero {
-  max-width: 1600px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  margin: 0 auto;
-  background-color: var(--bg-last-hero-color);
+  padding-top: 118px;
+  padding-bottom: 118px;
   background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
-    url(../images/img-hero.jpg);
+    url('../images/hero/hero-bg-mobile.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1600px;
+  background-color: var(--bg-last-hero-color);
+  margin: 0 auto;
 }
+@media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
+      url('../images/hero/hero-bg-mobile@2x.jpg');
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
+      url('../images/hero/hero-bg-tablet.jpg');
+  }
+}
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
+      url('../images/hero/hero-bg-tablet@2x.jpg');
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
+      url('../images/hero/hero-bg-desktop.jpg');
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1200px) and (min-resolution: 192dpi),
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)),
+      url('../images/hero/hero-bg-desktop@2x.jpg');
+  }
+}
+
 .main-title {
   color: var(--text-light-color);
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-size: 26px;
+  line-height: 1.62;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin-bottom: var(--main-gap);
-  max-width: 696px;
-  margin-left: auto;
+  max-width: 360px;
   margin-right: auto;
+  margin-left: auto;
+}
+@media screen and (min-width: 1200px) {
+  .main-title {
+    font-size: 44px;
+    line-height: 1.36;
+    max-width: 696px;
+  }
 }
 .main-btn {
   padding-top: 10px;
