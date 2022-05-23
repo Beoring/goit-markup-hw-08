@@ -4,7 +4,7 @@
 .menu-btn {
   display: inline-flex;
   position: absolute;
-  right: 0;
+  right: 15px;
   top: 10px;
   padding: 0;
   background-color: transparent;
@@ -34,7 +34,7 @@
     margin-right: 50px;
   }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .menu-list {
     display: none;
   }
@@ -80,7 +80,7 @@
   flex-direction: column;
   justify-content: center;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .contacts-list {
     display: none;
   }
@@ -193,12 +193,9 @@
 .mob-menu__link--current {
   color: var(--text-accent-color);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479.98px) {
   .mob-menu__link {
     font-size: 8.333vw;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
   }
 }
 .mob-menu__tel {
@@ -208,12 +205,9 @@
   letter-spacing: 0.02em;
   color: var(--text-accent-color);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479.98px) {
   .mob-menu__tel {
     font-size: 7.083vw;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
   }
 }
 .mob-menu__mail {
@@ -223,12 +217,9 @@
   letter-spacing: 0.02em;
   color: var(--text-secondary-color);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479.98px) {
   .mob-menu__mail {
-    font-size: 7.083vw;
-    font-weight: 500;
-    line-height: 1.18;
-    letter-spacing: 0.02em;
+    font-size: 5vw;
   }
 }
 .mob-menu__social-list {
@@ -245,12 +236,9 @@
   align-items: center;
   color: var(--text-accent-color);
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479.98px) {
   .mob-menu__social-item {
     font-size: 3.75vw;
-    font-weight: 500;
-    line-height: 1.22;
-    letter-spacing: 0.02em;
   }
 }
 .mob-menu__social-item:not(:last-child):after {
@@ -262,10 +250,10 @@
   width: 1px;
   height: 22px;
 }
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 479.98px) {
   .mob-menu__social-item:not(:last-child):after {
-    margin-left: 2vw;
-    margin-right: 2vw;
+    margin-left: 2.083vw;
+    margin-right: 2.083vw;
   }
 }
 .mob-menu__social-link {
