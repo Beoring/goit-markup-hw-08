@@ -1,19 +1,19 @@
-.command {
+.team {
   background-color: var(--bg-light-color);
 }
 @media screen and (min-width: 768px) {
-  .command-list {
+  .team-list {
     display: flex;
     flex-wrap: wrap;
     margin: -15px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .command-list {
+  .team-list {
     flex-wrap: nowrap;
   }
 }
-.command-list__item {
+.team-list__item {
   width: 100%;
   background-color: var(--bg-main-color);
   border-radius: 0px 0px 4px 4px;
@@ -22,27 +22,27 @@
   margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
-  .command-list__item {
+  .team-list__item {
     flex-basis: calc((100% - 60px) / 2);
     margin: 15px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .command-list__item {
+  .team-list__item {
     flex-basis: calc((100% - 120px) / 4);
   }
 }
-.command-data {
+.team-data {
   padding: var(--main-gap);
 }
 @media screen and (max-width: 1199px) {
-  .command-data {
+  .team-data {
     padding-top: 30px;
     padding-bottom: 24px;
   }
 }
-.command-data__title {
+.team-data__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -50,7 +50,7 @@
   margin-bottom: 10px;
   letter-spacing: 0.03em;
 }
-.command-data__text {
+.team-data__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;

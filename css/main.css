@@ -564,8 +564,8 @@ body {
 .hero {
   padding-top: 118px;
   padding-bottom: 118px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-mobile.jpg");
-  background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-mobile.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/mobile/image.jpg");
+  background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/mobile/image.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -576,34 +576,34 @@ body {
 
 @media screen and (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-mobile@2x.jpg");
-    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-mobile@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/mobile/image@2x.jpg");
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/mobile/image@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-tablet.jpg");
-    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-tablet.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/tablet/image.jpg");
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/tablet/image.jpg");
   }
 }
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-tablet@2x.jpg");
-    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-tablet@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/tablet/image@2x.jpg");
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/tablet/image@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-desktop.jpg");
-    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-desktop.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/desktop/image.jpg");
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/desktop/image.jpg");
   }
 }
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/hero-bg-desktop@2x.jpg");
-    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/hero-bg-desktop@2x.jpg");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(var(--bg-first-hero-color)), to(var(--bg-first-hero-color))), url("../images/hero/desktop/image@2x.jpg");
+    background-image: linear-gradient(var(--bg-first-hero-color), var(--bg-first-hero-color)), url("../images/hero/desktop/image@2x.jpg");
   }
 }
 .main-title {
@@ -754,12 +754,12 @@ body {
   background: var(--bg-activity-text-thumb-color);
 }
 
-.command {
+.team {
   background-color: var(--bg-light-color);
 }
 
 @media screen and (min-width: 768px) {
-  .command-list {
+  .team-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -769,12 +769,12 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
-  .command-list {
+  .team-list {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
   }
 }
-.command-list__item {
+.team-list__item {
   width: 100%;
   background-color: var(--bg-main-color);
   border-radius: 0px 0px 4px 4px;
@@ -784,29 +784,29 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .command-list__item {
+  .team-list__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 2);
         flex-basis: calc((100% - 60px) / 2);
     margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .command-list__item {
+  .team-list__item {
     -ms-flex-preferred-size: calc((100% - 120px) / 4);
         flex-basis: calc((100% - 120px) / 4);
   }
 }
-.command-data {
+.team-data {
   padding: var(--main-gap);
 }
 
 @media screen and (max-width: 1199px) {
-  .command-data {
+  .team-data {
     padding-top: 30px;
     padding-bottom: 24px;
   }
 }
-.command-data__title {
+.team-data__title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -815,7 +815,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.command-data__text {
+.team-data__text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
