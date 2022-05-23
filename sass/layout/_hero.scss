@@ -46,27 +46,6 @@
       url('../images/hero/desktop/image@2x.jpg');
   }
 }
-
-.main-title {
-  color: var(--text-light-color);
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-bottom: var(--main-gap);
-  max-width: 360px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media screen and (min-width: 1200px) {
-  .main-title {
-    font-size: 44px;
-    line-height: 1.36;
-    max-width: 696px;
-  }
-}
 .main-btn {
   padding-top: 10px;
   padding-right: 32px;
