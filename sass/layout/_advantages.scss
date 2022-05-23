@@ -12,7 +12,11 @@
     text-align: left;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .advantages-list__item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
 @media screen and (min-width: 1200px) {
   .advantages-list {
     flex-wrap: nowrap;
@@ -27,6 +31,11 @@
   text-transform: uppercase;
   margin-bottom: 10px;
   letter-spacing: 0.03em;
+}
+@media screen and (max-width: 767px) {
+  .advantages-list__title {
+    text-align: center;
+  }
 }
 .advantages-list__text {
   color: var(--text-secondary-color);

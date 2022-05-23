@@ -16,13 +16,13 @@
   }
 }
 .menu-btn__icon-menu {
+  cursor: pointer;
   fill: var(--text-main-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-  &:hover .menu-btn__icon-menu,
-  &:focus .menu-btn__icon-menu {
-    fill: var(--bg-accent-color);
-  }
+}
+.menu-btn:hover .menu-btn__icon-menu,
+.menu-btn:focus .menu-btn__icon-menu {
+  fill: var(--bg-accent-color);
 }
 
 .menu-list {
@@ -171,6 +171,7 @@
   }
 }
 .menu-btn-close__icon-menu-close {
+  cursor: pointer;
   fill: var(--text-main-color);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
