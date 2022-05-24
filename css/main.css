@@ -333,9 +333,14 @@ body {
 }
 
 .navigation {
-  margin-left: 88px;
+  margin-left: 93px;
 }
 
+@media screen and (max-width: 1199.98px) {
+  .menu-list {
+    margin-left: 88px;
+  }
+}
 .menu-list {
   display: -webkit-box;
   display: -ms-flexbox;
