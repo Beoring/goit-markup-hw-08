@@ -1,14 +1,33 @@
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--bg-dark-color);
 }
+@media screen and (max-width: 1199.98px) {
+  .main-contacts-block {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .main-contacts-block {
+    display: flex;
+    align-items: baseline;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .main-contacts-block {
+    margin-right: auto;
+  }
+}
 .address-data {
-  width: 100%;
   text-align: center;
+  margin-bottom: 60px;
 }
 @media screen and (min-width: 768px) {
   .address-data {
-    width: 232px;
-    margin-left: 61px;
+    padding-left: 61px;
+    margin-right: auto;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -16,7 +35,7 @@
     margin-right: 70px;
     width: 231px;
     text-align: left;
-    margin-left: 0;
+    padding-left: 0px;
   }
 }
 .position {
@@ -24,12 +43,6 @@
 }
 .address {
   font-style: normal;
-  margin-bottom: 60px;
-}
-@media screen and (min-width: 768px) {
-  .address {
-    margin-bottom: 0;
-  }
 }
 .address__text {
   color: var(--text-light-color);
@@ -44,7 +57,11 @@
     margin-bottom: 9px;
   }
 }
-
+@media screen and (min-width: 767.98px) {
+  .address__text {
+    width: 232px;
+  }
+}
 .vertical-contacts-list__item:not(:last-child) {
   margin-bottom: 8px;
 }
@@ -73,19 +90,12 @@
 }
 
 .subscription {
-  margin-top: 60px;
   text-align: center;
-}
-@media screen and (min-width: 768px) {
-  .subscription {
-    flex-basis: 100%;
-  }
 }
 @media screen and (min-width: 1200px) {
   .subscription {
     margin-top: 0;
     text-align: left;
-    flex-basis: 570px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -123,6 +133,8 @@
 @media screen and (min-width: 1200px) {
   .subscription-form__input {
     width: 358px;
+    margin-bottom: 0;
+    margin-right: 12px;
   }
 }
 .subscription__btn {
@@ -130,8 +142,7 @@
 }
 @media screen and (min-width: 1200px) {
   .subscription__btn {
-    margin-left: 12px;
-    margin-right: 0;
+    margin: 0;
   }
 }
 .subscription-btn {

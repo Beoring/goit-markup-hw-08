@@ -111,8 +111,7 @@
 }
 @media screen and (max-width: 479.98px) {
   .content-overlay__text {
-    font-size: 3.75vw;
-    padding: 13.125vw 5vw;
+    overflow: scroll;
   }
 }
 .samples-list__link {

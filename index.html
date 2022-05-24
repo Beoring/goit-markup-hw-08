@@ -24,7 +24,7 @@
     <!-- Шапка сайта -->
     <header class="header">
       <div class="header__container container">
-        <a class="logo link" lang="en" href="./index.html"
+        <a class="logo logo--up link" lang="en" href="./index.html"
           >Web<span class="logo__up">Studio</span></a
         >
         <button type="button" class="menu-btn menu-open-btn">
@@ -49,14 +49,18 @@
         </nav>
         <ul class="contacts-list list">
           <li class="contacts-list__item">
-            <a class="contacts-list__link link" href="mailto:info@devstudio.com"
+            <a
+              class="contacts-list__link contacts-list__link--tablet-up link"
+              href="mailto:info@devstudio.com"
               ><svg class="contacts-list__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use></svg
               >info@devstudio.com</a
             >
           </li>
           <li class="contacts-list__item">
-            <a class="contacts-list__link link" href="tel:+380961111111"
+            <a
+              class="contacts-list__link contacts-list__link--tablet-down link"
+              href="tel:+380961111111"
               ><svg class="contacts-list__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use></svg
               >+38 096 111 11 11</a
@@ -80,32 +84,32 @@
               <a class="mob-menu__link link" href="">Контакты</a>
             </li>
           </ul>
-          <ul class="mob-menu__contact-list list">
-            <li class="mob-menu__item">
-              <a class="mob-menu__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-            <li class="mob-menu__item">
-              <a class="mob-menu__mail link" href="mailto:info@devstudio.com">
-                info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <ul class="mob-menu__social-list list">
-                <li class="mob-menu__social-item">
-                  <a class="mob-menu__social-link link" href="">Instagram</a>
-                </li>
-                <li class="mob-menu__social-item">
-                  <a class="mob-menu__social-link link" href="">Twitter</a>
-                </li>
-                <li class="mob-menu__social-item">
-                  <a class="mob-menu__social-link link" href="">Facebook</a>
-                </li>
-                <li class="mob-menu__social-item">
-                  <a class="mob-menu__social-link link" href="">Linkedin</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          <div class="mob-menu__navigation-down">
+            <ul class="mob-menu__contact-list list">
+              <li class="mob-menu__item">
+                <a class="mob-menu__tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+              <li class="mob-menu__item">
+                <a class="mob-menu__mail link" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
+              </li>
+            </ul>
+            <ul class="mob-menu__social-list list">
+              <li class="mob-menu__social-item">
+                <a class="mob-menu__social-link link" href="">Instagram</a>
+              </li>
+              <li class="mob-menu__social-item">
+                <a class="mob-menu__social-link link" href="">Twitter</a>
+              </li>
+              <li class="mob-menu__social-item">
+                <a class="mob-menu__social-link link" href="">Facebook</a>
+              </li>
+              <li class="mob-menu__social-item">
+                <a class="mob-menu__social-link link" href="">Linkedin</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
@@ -648,60 +652,60 @@
     <!-- Футер -->
     <footer class="footer">
       <div class="container footer__container">
-        <div class="address-data">
-          <div class="position">
-            <a class="logo link" lang="en" href="./index.html"
+        <div class="main-contacts-block">
+          <div class="address-data">
+            <a class="logo logo--down link" lang="en" href="./index.html"
               >Web<span class="logo__down">Studio</span></a
             >
+            <address class="address">
+              <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
+              <ul class="vertical-contacts-list list">
+                <li class="vertical-contacts-list__item">
+                  <a class="vertical-contacts-list__link link" href="mailto:info@example.com"
+                    >info@example.com</a
+                  >
+                </li>
+                <li class="vertical-contacts-list__item">
+                  <a class="vertical-contacts-list__link link" href="tel:+380991111111"
+                    >+38 099 111 11 11</a
+                  >
+                </li>
+              </ul>
+            </address>
           </div>
-          <address class="address">
-            <p class="address__text">г. Киев, пр-т Леси Украинки, 26</p>
-            <ul class="vertical-contacts-list list">
-              <li class="vertical-contacts-list__item">
-                <a class="vertical-contacts-list__link link" href="mailto:info@example.com"
-                  >info@example.com</a
-                >
+          <div class="social-container">
+            <p class="social-container__appeal">Присоединяйтесь</p>
+            <ul class="social-list list">
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--bottom link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
-              <li class="vertical-contacts-list__item">
-                <a class="vertical-contacts-list__link link" href="tel:+380991111111"
-                  >+38 099 111 11 11</a
-                >
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--bottom link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--bottom link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social-list__item">
+                <a class="social-list__link social-list__link--bottom link" href="">
+                  <svg class="social-list__icon" width="20" height="20">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
-          </address>
-        </div>
-        <div class="social-container">
-          <p class="social-container__appeal">Присоединяйтесь</p>
-          <ul class="social-list list">
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--bottom link" href="">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--bottom link" href="">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--bottom link" href="">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="social-list__item">
-              <a class="social-list__link social-list__link--bottom link" href="">
-                <svg class="social-list__icon" width="20" height="20">
-                  <use href="./images/icons.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          </div>
         </div>
         <div class="subscription">
           <p class="subscription__appeal">Подпишитесь на рассылку</p>
@@ -782,9 +786,11 @@
               <svg class="modal-checkbox__icon" width="16" height="15">
                 <use href="./images/icons.svg#icon-modal-4"></use>
               </svg>
-              Соглашаюсь с рассылкой и принимаю&nbsp;
-              <a class="modal-checkbox__link link" href="">Условия договора</a></label
-            >
+              <span class="modal-checkbox__text">
+                Соглашаюсь с рассылкой и принимаю
+                <a class="modal-checkbox__link link" href="">Условия договора</a>
+              </span>
+            </label>
           </div>
           <button class="backdrop-btn btn" type="submit">Отправить</button>
         </form>
